@@ -1,0 +1,228 @@
+header {
+  background-color: white;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  padding: 10px 0;
+}
+
+.container {
+  background-color: rgb(249, 135, 5);
+  padding: 1rem 0;
+  text-align: center;
+  position: relative;
+  width: 100vw;
+  height: auto;
+}
+
+h4 {
+  color: white;
+  margin: 0;
+  font-family: sans-serif;
+  height: 20px;
+  font-size: 20px;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  margin: 15px 0;
+}
+
+nav {
+  width: 100%;
+}
+
+a {
+  color: rgb(249, 135, 5);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+nav li {
+  margin: 0;
+}
+
+@media (max-width: 425px) {
+  header {
+    flex-direction: column;
+  }
+  nav {
+    width: 100vw;
+  }
+}
+footer {
+  background-color: rgb(249, 135, 5);
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  position: sticky;
+}
+
+.Whatsapp {
+  width: 30px;
+}
+
+.Facebook {
+  width: 30px;
+}
+
+.Instagram {
+  width: 30px;
+}
+
+.Derechos {
+  color: white;
+  height: 20px;
+  font-size: 10px;
+  margin: 0;
+}
+
+main {
+  width: 100vw;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.card h3 {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #333;
+}
+.card .precio {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+.card .precio-oferta {
+  font-size: 12px;
+  color: #a52a2a;
+}
+.card button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border: none;
+  background-color: orange;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card button:hover {
+  background-color: darkorange;
+}
+
+body {
+  width: 100vw;
+}
+
+.Contactate {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Contacto {
+  background-color: rgb(249, 135, 5);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 4px;
+  margin: 0 auto;
+  width: 100vw;
+}
+.Contacto label {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+.Contacto input, .Contacto textarea {
+  border-radius: 3px;
+  border: 1px solic #ccc;
+  padding: 8px;
+  width: 99%;
+  font-size: 14px;
+}
+.Contacto .Enviar {
+  background-color: darkorange;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.Contacto .Enviar:hover {
+  background-color: orangered;
+  transform: scale(1.05);
+}
+
+.map {
+  width: 100vw;
+  height: 50vh;
+}
+
+.Nosotros {
+  text-align: center;
+  color: black;
+  font-size: 25px;
+}
+
+.Explica {
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  justify-content: center;
+}
+
+.PC {
+  font-size: 20PX;
+  color: black;
+}
+.PC .PC_1 {
+  color: black;
+}
+
+.navbar navbar-expand-lg bg-body-tertiary {
+  width: 100vw;
+}
+
+/*# sourceMappingURL=style.css.map */

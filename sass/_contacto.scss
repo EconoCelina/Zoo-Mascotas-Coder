@@ -1,0 +1,61 @@
+@use "variables" as v;
+
+body{
+    width: 100vw;
+}
+.Contactate{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Contacto{
+    background-color: v.$color-frase;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    border-radius: 4px;
+    margin: 0 auto;
+    width: 100vw;
+
+label{
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input, textarea{
+    border-radius: 3px;
+    border: 1px solic #ccc;
+    padding: 8px;
+    width: 99%;
+    font-size: 14px;
+}
+
+.Enviar {
+    background-color: darkorange;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: orangered;
+        transform: scale(1.05); // pequeño efecto al pasar el mouse
+    }
+    }
+
+}
+
+.map{
+    width: 100vw;
+    height: 50vh;
+}

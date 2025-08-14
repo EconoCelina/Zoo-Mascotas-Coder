@@ -1,0 +1,68 @@
+@use "variables" as v;
+
+header { 
+    background-color: v.$header-color;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    padding: 10px 0;
+}
+
+.container {
+    background-color:v.$color-frase ;
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+    width: 100vw;
+    height: auto;
+}
+
+h4{
+    color: v.$text-color;
+    margin: 0;
+    font-family:sans-serif;
+    height: 20px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.logo {
+    width: v.$size-logo;
+    margin: 15px 0;
+}
+
+nav{
+    width: 100%;
+}
+
+
+a{
+    color: rgb(249, 135, 5);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav li {
+    margin: 0;
+}
+
+@media (max-width:425px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        width: 100vw;
+    }
+}
+
