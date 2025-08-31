@@ -258,6 +258,7 @@ h2 {
   text-align: center;
   color: black;
   font-size: 25px;
+  margin-top: 25px;
 }
 
 .Explica {
@@ -265,6 +266,10 @@ h2 {
   font-size: 15px;
   color: black;
   justify-content: center;
+}
+
+.SN {
+  margin: 2rem;
 }
 
 .PC {
