@@ -8,8 +8,26 @@
 @use "pf";
 
 
-.navbar navbar-expand-lg bg-body-tertiary{
-    width: 100vw;
+.navbar.navbar-expand-lg.bg-body-tertiary {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        gap: 1.5rem; 
+    }
+
+    form {
+        margin-left: 2rem; 
+    }
+}
+
+
+body { 
+    padding-bottom:80px;
+    width: 100%;
 }
 
 
